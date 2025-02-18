@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Profile - Notus Pro</title>
+    <meta property="og:title" content="Profile - Notus Pro" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style>
+      .rating-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          font-size: 2rem;
+      }
+      .star {
+          cursor: pointer;
+          color: gray;
+          transition: color 0.3s;
+      }
+      .star:hover,
+      .star.active {
+          color: gold;
+      }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen","Ubuntu", "Cantarell", "Fira Sans","Droid Sans", "Helvetica Neue", sans-serif;
+        font-size: 1.12rem;
+      }
+      
+      body {
+        font-weight: 300;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.75;
+        color: var(--dl-color-gray-900);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-900);
+      }
+      
+    </style>
+    <s
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./profile.css" rel="stylesheet" />
+
+      <div class="profile-container10">
+        <div class="profile-image1">
+          <header-wrapper class="header-wrapper">
+            <!--Header component-->
+            <div data-role="Header" class="header-header header">
+              <div class="header-container1">
+                <a href="index.html" class="header-navlink1">
+                  <h1 class="header-heading1"><span>HELPDESK</span></h1>
+                </a>
+                <a href="profile.html" class="header-navlink2">
+                  <div class="header-container2">
+                    <svg viewBox="0 0 1024 1024" class="header-icon10">
+                      <path
+                        d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"
+                      ></path>
+                    </svg>
+                    <span class="header-text1 TextSM">PROFILE</span>
+                  </div>
+                </a>
+                <div class="header-container3">
+                  <div class="dropdown">
+                    <button class="dropbtn">
+                      <div class="header-container2">
+                        <svg viewBox="0 0 1024 1024" class="header-icon10">
+                          <path
+                            d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"
+                          ></path>
+                        </svg>
+                        <span class="header-text1 TextSM">PROFILE ▼</span>
+                      </div>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="profile1.html">Profile 1</a>
+                      <a href="profile2.html">Profile 2</a>
+                      <a href="profile3.html">Profile 3</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div data-role="BurgerMenu" class="header-burger-menu">
+                <svg viewBox="0 0 1024 1024" class="header-icon12">
+                  <path
+                    d="M128 256h768v86h-768v-86zM128 554v-84h768v84h-768zM128 768v-86h768v86h-768z"
+                  ></path>
+                </svg>
+              </div>
+              <div data-role="MobileMenu" class="header-mobile-menu">
+                <div class="header-top">
+                  <a href="index.html" class="header-navlink3">
+                    <h1 class="header-heading2 TextSM">
+                      <span>NOTUS PRO</span>
+                    </h1>
+                  </a>
+                  <div data-role="CloseMobileMenu" class="header-close-menu">
+                    <svg viewBox="0 0 1024 1024" class="header-icon14">
+                      <path
+                        d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="header-mid">
+                  <a href="profile.html" class="header-navlink4">
+                    <div class="header-container4">
+                      <svg viewBox="0 0 1024 1024" class="header-icon16">
+                        <path
+                          d="M576 706.612v-52.78c70.498-39.728 128-138.772 128-237.832 0-159.058 0-288-192-288s-192 128.942-192 288c0 99.060 57.502 198.104 128 237.832v52.78c-217.102 17.748-384 124.42-384 253.388h896c0-128.968-166.898-235.64-384-253.388z"
+                        ></path>
+                      </svg>
+                      <span class="header-text2 TextSM">PROFILE</span>
+                    </div>
+                  </a>
+                  <div class="header-container5">
+                    <svg viewBox="0 0 1024 1024" class="header-icon18">
+                      <path
+                        d="M917.806 229.076c-22.212-30.292-53.174-65.7-87.178-99.704s-69.412-64.964-99.704-87.178c-51.574-37.82-76.592-42.194-90.924-42.194h-496c-44.112 0-80 35.888-80 80v864c0 44.112 35.888 80 80 80h736c44.112 0 80-35.888 80-80v-624c0-14.332-4.372-39.35-42.194-90.924zM785.374 174.626c30.7 30.7 54.8 58.398 72.58 81.374h-153.954v-153.946c22.984 17.78 50.678 41.878 81.374 72.572zM896 944c0 8.672-7.328 16-16 16h-736c-8.672 0-16-7.328-16-16v-864c0-8.672 7.328-16 16-16 0 0 495.956-0.002 496 0v224c0 17.672 14.326 32 32 32h224v624z"
+                      ></path>
+                      <path
+                        d="M736 832h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"
+                      ></path>
+                      <path
+                        d="M736 704h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"
+                      ></path>
+                      <path
+                        d="M736 576h-448c-17.672 0-32-14.326-32-32s14.328-32 32-32h448c17.674 0 32 14.326 32 32s-14.326 32-32 32z"
+                      ></path>
+                    </svg>
+                    <span class="header-text3 TextSM">BLOG</span>
+                  </div>
+                </div>
+                <div class="header-bot">
+                  <svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="header-icon23"
+                  >
+                    <path
+                      d="M713.143 73.143c90.857 0 164.571 73.714 164.571 164.571v548.571c0 90.857-73.714 164.571-164.571 164.571h-107.429v-340h113.714l17.143-132.571h-130.857v-84.571c0-38.286 10.286-64 65.714-64l69.714-0.571v-118.286c-12-1.714-53.714-5.143-101.714-5.143-101.143 0-170.857 61.714-170.857 174.857v97.714h-114.286v132.571h114.286v340h-304c-90.857 0-164.571-73.714-164.571-164.571v-548.571c0-90.857 73.714-164.571 164.571-164.571h548.571z"
+                    ></path></svg
+                  ><svg viewBox="0 0 1024 1024" class="header-icon25">
+                    <path
+                      d="M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z"
+                    ></path></svg
+                  ><svg
+                    viewBox="0 0 877.7142857142857 1024"
+                    class="header-icon27"
+                  >
+                    <path
+                      d="M438.857 73.143c242.286 0 438.857 196.571 438.857 438.857 0 193.714-125.714 358.286-300 416.571-22.286 4-30.286-9.714-30.286-21.143 0-14.286 0.571-61.714 0.571-120.571 0-41.143-13.714-67.429-29.714-81.143 97.714-10.857 200.571-48 200.571-216.571 0-48-17.143-86.857-45.143-117.714 4.571-11.429 19.429-56-4.571-116.571-36.571-11.429-120.571 45.143-120.571 45.143-34.857-9.714-72.571-14.857-109.714-14.857s-74.857 5.143-109.714 14.857c0 0-84-56.571-120.571-45.143-24 60.571-9.143 105.143-4.571 116.571-28 30.857-45.143 69.714-45.143 117.714 0 168 102.286 205.714 200 216.571-12.571 11.429-24 30.857-28 58.857-25.143 11.429-89.143 30.857-127.429-36.571-24-41.714-67.429-45.143-67.429-45.143-42.857-0.571-2.857 26.857-2.857 26.857 28.571 13.143 48.571 64 48.571 64 25.714 78.286 148 52 148 52 0 36.571 0.571 70.857 0.571 81.714 0 11.429-8 25.143-30.286 21.143-174.286-58.286-300-222.857-300-416.571 0-242.286 196.571-438.857 438.857-438.857zM166.286 703.429c1.143-2.286-0.571-5.143-4-6.857-3.429-1.143-6.286-0.571-7.429 1.143-1.143 2.286 0.571 5.143 4 6.857 2.857 1.714 6.286 1.143 7.429-1.143zM184 722.857c2.286-1.714 1.714-5.714-1.143-9.143-2.857-2.857-6.857-4-9.143-1.714-2.286 1.714-1.714 5.714 1.143 9.143 2.857 2.857 6.857 4 9.143 1.714zM201.143 748.571c2.857-2.286 2.857-6.857 0-10.857-2.286-4-6.857-5.714-9.714-3.429-2.857 1.714-2.857 6.286 0 10.286s7.429 5.714 9.714 4zM225.143 772.571c2.286-2.286 1.143-7.429-2.286-10.857-4-4-9.143-4.571-11.429-1.714-2.857 2.286-1.714 7.429 2.286 10.857 4 4 9.143 4.571 11.429 1.714zM257.714 786.857c1.143-3.429-2.286-7.429-7.429-9.143-4.571-1.143-9.714 0.571-10.857 4s2.286 7.429 7.429 8.571c4.571 1.714 9.714 0 10.857-3.429zM293.714 789.714c0-4-4.571-6.857-9.714-6.286-5.143 0-9.143 2.857-9.143 6.286 0 4 4 6.857 9.714 6.286 5.143 0 9.143-2.857 9.143-6.286zM326.857 784c-0.571-3.429-5.143-5.714-10.286-5.143-5.143 1.143-8.571 4.571-8 8.571 0.571 3.429 5.143 5.714 10.286 4.571s8.571-4.571 8-8z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </header-wrapper>
+          <img
+            alt="image"
+            src="public/gray-vector.svg"
+            class="profile-image2"
+          />
+          <div class="profile-bg"></div>
+        </div>
+        <div class="profile-container11">
+          <div class="profile-container12">
+            <div class="profile-container13">
+              <counter-wrapper class="counter-wrapper">
+                <!--Counter component-->
+                <div class="counter-container"></div>
+              </counter-wrapper>
+              <counter-wrapper-izis class="counter-wrapper-izis">
+                <!--Counter component-->
+                <div class="counter-container1"></div>
+              </counter-wrapper-izis>
+              <counter-wrapper-h3ug class="counter-wrapper-h3ug">
+                <!--Counter component-->
+                <div class="counter-container2"></div>
+              </counter-wrapper-h3ug>
+            </div>
+            <img
+              alt="image"
+              src="public/team3-700h.jpg"
+              class="profile-image3"
+            />
+            <div class="profile-container14">
+              <div class="profile-container15">
+                <primary-button-wrapper class="primary-button-wrapper">
+                  <!--PrimaryButton component-->
+                  <div class="primary-button-container"></div>
+                </primary-button-wrapper>
+              </div>
+              <secondary-button-wrapper class="secondary-button-wrapper">
+                <!--SecondaryButton component-->
+                <div class="secondary-button-container secondary-button"></div>
+              </secondary-button-wrapper>
+            </div>
+          </div>
+          <div class="profile-container16">
+            <h3 class="profile-text10 Text2XL">Marsya Putra</h3>
+            <div class="profile-container17">
+              <span class="profile-text11 TextSM">2702367220</span>
+            </div>
+            <div class="profile-container18"></div>
+            <div class="profile-container19">
+              <body>
+                <div class="rating-container">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+                <p id="rating-value">Rating: 0</p>
+                
+                <script>
+                    const stars = document.querySelectorAll('.star');
+                    const ratingValue = document.getElementById('rating-value');
+                    
+                    stars.forEach(star => {
+                        star.addEventListener('click', function () {
+                            let value = this.getAttribute('data-value');
+                            ratingValue.textContent = `Rating: ${value}`;
+                            stars.forEach(s => s.classList.remove('active'));
+                            this.classList.add('active');
+                            for (let i = 0; i < value; i++) {
+                                stars[i].classList.add('active');
+                            }
+                        });
+                    });
+                </script>
+            </body>
+            </div>
+            <div class="profile-container20"></div>
+          </div>
+        </div>
+        <div class="profile-container21">
+          <div class="profile-container22">
+            <div class="profile-container23">
+              <counter-wrapper-hz52 class="counter-wrapper-hz52">
+                <!--Counter component-->
+                <div class="counter-container3"></div>
+              </counter-wrapper-hz52>
+              <counter-wrapper-vwda class="counter-wrapper-vwda">
+                <!--Counter component-->
+                <div class="counter-container4"></div>
+              </counter-wrapper-vwda>
+              <counter-wrapper-wk83 class="counter-wrapper-wk83">
+                <!--Counter component-->
+                <div class="counter-container5"></div>
+              </counter-wrapper-wk83>
+            </div>
+            <img
+              alt="image"
+              src="public/team3-700h.jpg"
+              class="profile-image4"
+            />
+            <div class="profile-container24">
+              <div class="profile-container25">
+                <primary-button-wrapper-w8e3
+                  class="primary-button-wrapper-w8e3"
+                >
+                  <!--PrimaryButton component-->
+                  <div class="primary-button-container1"></div>
+                </primary-button-wrapper-w8e3>
+              </div>
+              <secondary-button-wrapper-c6an
+                class="secondary-button-wrapper-c6an"
+              >
+                <!--SecondaryButton component-->
+                <div class="secondary-button-container1 secondary-button"></div>
+              </secondary-button-wrapper-c6an>
+            </div>
+          </div>
+          <div class="profile-container26">
+            <h3 class="profile-text12">
+              <span>EMANUELLA IVANA KARUNIA</span>
+              <br class="Text2XL" />
+            </h3>
+            <div class="profile-container27">
+              <span class="profile-text15">2702323585</span>
+            </div>
+            <div class="profile-container28">
+             
+                <div class="rating-container">
+                    <span class="star" data-value="1">&#9733;</span>
+                    <span class="star" data-value="2">&#9733;</span>
+                    <span class="star" data-value="3">&#9733;</span>
+                    <span class="star" data-value="4">&#9733;</span>
+                    <span class="star" data-value="5">&#9733;</span>
+                </div>
+                <p id="rating-value">Rating: 0</p>
+                
+                <script>
+                    const stars = document.querySelectorAll('.star');
+                    const ratingValue = document.getElementById('rating-value');
+                    
+                    stars.forEach(star => {
+                        star.addEventListener('click', function () {
+                            let value = this.getAttribute('data-value');
+                            ratingValue.textContent = `Rating: ${value}`;
+                            stars.forEach(s => s.classList.remove('active'));
+                            this.classList.add('active');
+                            for (let i = 0; i < value; i++) {
+                                stars[i].classList.add('active');
+                            }
+                        });
+                    });
+                </script>
+            
+            </div>
+          </div>
+        </div>
+        <div class="profile-container29">
+          <div class="profile-container30">
+            <div class="profile-container31">
+              <counter-wrapper-gdee class="counter-wrapper-gdee">
+                <!--Counter component-->
+                <div class="counter-container6"></div>
+              </counter-wrapper-gdee>
+              <counter-wrapper-8sd1 class="counter-wrapper-8sd1">
+                <!--Counter component-->
+                <div class="counter-container7"></div>
+              </counter-wrapper-8sd1>
+              <counter-wrapper-1olk class="counter-wrapper-1olk">
+                <!--Counter component-->
+                <div class="counter-container8"></div>
+              </counter-wrapper-1olk>
+            </div>
+            <img
+              alt="image"
+              src="public/team3-700h.jpg"
+              class="profile-image5"
+            />
+            <div class="profile-container32">
+              <div class="profile-container33">
+                <primary-button-wrapper-q5vx
+                  class="primary-button-wrapper-q5vx"
+                >
+                  <!--PrimaryButton component-->
+                  <div class="primary-button-container2"></div>
+                </primary-button-wrapper-q5vx>
+              </div>
+              <secondary-button-wrapper-pb70
+                class="secondary-button-wrapper-pb70"
+              >
+                <!--SecondaryButton component-->
+                <div class="secondary-button-container2 secondary-button"></div>
+              </secondary-button-wrapper-pb70>
+            </div>
+          </div>
+          <div class="profile-container34">
+            <h3 class="profile-text16">
+              <span>FARRELL SEVILLEN ARYA</span>
+              <br class="Text2XL" />
+            </h3>
+            <div class="profile-container35">
+              <span class="profile-text19">2702323540</span>
+            </div>
+            <div class="profile-container36"></div>
+          </div>
+        </div>
+        <div class="profile-container37">
+          <div class="profile-container38">
+            <div class="profile-container39">
+              <counter-wrapper-dt1b class="counter-wrapper-dt1b">
+                <!--Counter component-->
+                <div class="counter-container9"></div>
+              </counter-wrapper-dt1b>
+              <counter-wrapper-38yu class="counter-wrapper-38yu">
+                <!--Counter component-->
+                <div class="counter-container10"></div>
+              </counter-wrapper-38yu>
+              <counter-wrapper-5gxc class="counter-wrapper-5gxc">
+                <!--Counter component-->
+                <div class="counter-container11"></div>
+              </counter-wrapper-5gxc>
+            </div>
+            <img
+              alt="image"
+              src="public/team3-700h.jpg"
+              class="profile-image6"
+            />
+            <div class="profile-container40">
+              <div class="profile-container41">
+                <primary-button-wrapper-fadv
+                  class="primary-button-wrapper-fadv"
+                >
+                  <!--PrimaryButton component-->
+                  <div class="primary-button-container3"></div>
+                </primary-button-wrapper-fadv>
+              </div>
+              <secondary-button-wrapper-nyzy
+                class="secondary-button-wrapper-nyzy"
+              >
+                <!--SecondaryButton component-->
+                <div class="secondary-button-container3 secondary-button"></div>
+              </secondary-button-wrapper-nyzy>
+            </div>
+          </div>
+          <div class="profile-container42">
+            <h3 class="profile-text20">
+              <span>RAISYA JASMINE ZAHIRA</span>
+              <br class="Text2XL" />
+            </h3>
+            <div class="profile-container43">
+              <span class="profile-text23">2702364761</span>
+            </div>
+            <div class="profile-container44"></div>
+            <div class="profile-container45"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
